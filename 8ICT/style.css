@@ -1,4 +1,8 @@
-		body	{
+@font-face {
+  font-family: "Product Sans";
+  src: url(product-sans.ttf) format("truetype");
+}
+body	{
 				background-color : white; 
 				color: black;
 				font-family: Product Sans;
