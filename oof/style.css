@@ -43,6 +43,7 @@ h1 {
   background-color: #0a306d;
 }
 .textwall {
+    box-shadow: 0px -30px 30px black;
     background-color: #0a306d;
     position: relative;
   display: block;
