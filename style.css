@@ -1,0 +1,22 @@
+body {
+    color: black;
+    background-color: white;
+    font-family: "Product Sans";
+    text-align: center;
+}
+
+.portfolio {
+    font-size: 20pt;
+    background-color: black;
+    border-radius: 30px;
+    color: white;
+    padding: 20px 5px 10px 5px;
+    margin: 15px 35%;
+}
+.portfolio {
+    transition-duration: 0.4s;
+}
+.portfolio:hover {
+    background-color: white;
+    color: black;
+}
