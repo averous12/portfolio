@@ -1,8 +1,16 @@
+@font-face {
+  font-family: "Product Sans";
+  src: url(8ICT/product-sans.ttf) format("truetype");
+}
+
 body {
     color: black;
     background-color: white;
     font-family: "Product Sans";
     text-align: center;
+}
+h1 {
+    margin-bottom: 5px;
 }
 
 .portfolio {
@@ -19,4 +27,13 @@ body {
 .portfolio:hover {
     background-color: white;
     color: black;
+}
+
+.bar {
+	position: relative;
+	left: 30%;
+	right: 30%;
+	height: 3px;
+	width: 40%;
+	background-color: black;
 }
