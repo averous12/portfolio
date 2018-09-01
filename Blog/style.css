@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Open+Sans|Slabo+27px|Ubuntu');
+body {
+    color: black;
+    font-family: "Slabo 27px";
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+.header {
+    min-height: 200px;
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background: url(https://images.pexels.com/photos/1182338/pexels-photo-1182338.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
+    border-bottom: solid 5px orangered;
+}
+.header h1 {
+    font-family: "Merriweather";
+}
+.textbox {
+    font-size: 25pt;
+    color: white;
+}
+.container {
+    margin: 0;
+    padding: 0;
+}
+.postcontainer {
+    display: grid;
+    grid-template-columns: 10% 90%;
+    text-align: justify;
+    margin: 25px 25px;
+}
+.datecontainer {
+    font-family: "Montserrat";
+    text-align: center;
+    grid-column: 1;
+    border: solid 10px orangered;
+    background-color: orangered;
+    border-radius: 30px;
+    color: white;
+    height: 50pt;
+    margin-top: 20pt;
+}
+.datecontainer p {
+    margin: 0;
+    padding: 0;
+}
+    .date {
+        font-weight: bold;
+        font-size: 20pt;
+    }
+    .month {
+        font-size: 10pt;
+    }
+    .year {
+        font-size: 10pt;
+    }
+.post h1 {
+    font-family: "Ubuntu";
+    font-size: 40pt;
+}
+.post {
+    grid-column: 2;
+    margin: auto 100px;
+    font-size: 15pt;
+}
+.post p {
+    margin-bottom: 0;
+}
+.sign {
+    font-family: "Montserrat";
+    margin-top: 0;
+    margin-left: 10px;
+    font-size: 12pt;
+    opacity: 0.3;
+}
+.bar {
+    height: 4px;
+    background-color: orangered;
+    margin: 15px 0px;
+}
+
+.footer {
+    margin-top: 100px;
+    border-top: solid 5px orangered;
+    position: relative;
+    bottom: 0;
+    padding: 10px 0px;
+    background-color: grey;
+    width: 100%;
+    font-family: "Open Sans";
+    color: black;
+    font-size: 20pt;
+    text-align: center;
+}
