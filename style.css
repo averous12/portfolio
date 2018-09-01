@@ -4,36 +4,73 @@
 }
 
 body {
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: black;
     font-family: "Product Sans";
     text-align: center;
+    background: url(logo/bg.jpg);
 }
 h1 {
     margin-bottom: 5px;
+    text-shadow: 0px 0px 10px black;
 }
 
 .portfolio {
     font-size: 20pt;
-    background-color: black;
+    background-color: white;
     border-radius: 30px;
-    color: white;
-    padding: 20px 5px 10px 5px;
-    margin: 15px 35%;
-}
-.portfolio {
+    color: black;
+    width: 250px;
+    height: 300px;
     transition-duration: 0.4s;
+    overflow-y: hidden;
+    box-shadow: 0px 10px 20px 3px black;
+    margin: 30px;
+    display: inline-block;
 }
 .portfolio:hover {
-    background-color: white;
-    color: black;
+    
 }
-
+.thumbnail {
+    width: 250px;
+    height: 150px;
+    overflow: hidden;
+    border-bottom: solid 3px gray;
+    background-color: black;
+    transition-duration: 0.4s;
+}
+.thumbnail img {
+    max-width: 250px;
+    transition-duration: 0.4s;
+}
+.thumbnail:hover{
+    height: 210px;
+}
 .bar {
 	position: relative;
 	left: 30%;
 	right: 30%;
 	height: 3px;
 	width: 40%;
-	background-color: black;
+	background-color: white;
+}
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+}
+
+#thumb_blog {
+    background: url(logo/blog.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#thumb_ict {
+    background: url(logo/8ict.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
 }
