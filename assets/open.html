@@ -1,0 +1,43 @@
+<div id="checking">
+<form name="PasswordField" onsubmit="return false;">
+  Hint : Birthday</br>
+  <input type="password" id="keyvalue" name="keyvalue" onkeydown = "if (event.keyCode == 13) document.getElementById('subPass').click()">
+  <input type="button" id="subPass" value="ACCESS" onclick="isValid(this);">
+</form>
+</div>
+<div id="welcomeDiv" style="display:none;" class="answer_list">
+  </br>
+  <p>Please</p></br>
+  <p>Please give me time</p>
+  <p>I'm sorry that you have to burden the consequences of my sin</p>
+  <p>It's definitely my sins, for I saw your image flashing during prayers. I cried immediately</p></br>
+  <p>Please let me be there tomorrow</p>
+  <p>You can make me pay for everything</p></br>
+  <p>I'm sorry for ruining everything</p>
+  <p>You don't deserve to feel like this</p>
+  <p>Please, let me fix it tomorrow</p>
+  <a href="https://wa.me/6285156503105?text=I'm%20here">Please forgive me..</a>
+</div>
+
+<script>
+
+  function isValid(){
+  var keyvalue = document.getElementById('keyvalue').value;
+  if (keyvalue == "250402")
+    {document.getElementById('welcomeDiv').style.display = "block";
+     document.getElementById('checking').style.display = "none";}
+    
+  else
+    {alert('ACCESS DENIED')}
+}
+
+</script><script>
+  function isValid(){
+  var keyvalue = document.getElementById('keyvalue').value;
+  if (keyvalue == "250402")
+    {document.getElementById('welcomeDiv').style.display = "block";
+     document.getElementById('checking').style.display = "none";}
+    
+  else
+    {alert('ACCESS DENIED')}
+}</script>
