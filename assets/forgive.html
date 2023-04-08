@@ -1,0 +1,46 @@
+<div id="checking">
+<form name="PasswordField" onsubmit="return false;">
+  Hint : Phone Passcode</br>
+  <input type="password" id="keyvalue" name="keyvalue" onkeydown = "if (event.keyCode == 13) document.getElementById('subPass').click()">
+  <input type="button" id="subPass" value="ACCESS" onclick="isValid(this);">
+</form>
+</div>
+<div id="welcomeDiv" style="display:none;" class="answer_list">
+  </br>
+  <p>I'm sorry</p></br>
+  <p>I'm sorry for ruining your excitement, your mood, your weekend</p></br>
+  <p>I'm sorry for ruining everything</p>
+  <p>I don't have enough power to prevent this, but i still tried to not let things be ruined</p>
+  <p>Yet it failed, you've disappointed in me too much</p>
+  <p>You've worked sweat, you've anticipated & excited before, but i disappointed you</p>
+  <p>I can't provide what you wanted.. and offering what you don't need</p>
+  <p>You have to face the selfish me, I'm sorry</p>
+  <p>You have to feel all of these, I'm sorry</p>
+  <p>You have lost all trust in me don't you?</p></br>
+  <p>Please give me tomorrow</p>
+  <p>I've tried, I asked whether i can comeover to you a little bit, i didn't get the permission, they told me to just come tomorrow</p>
+  <p>It's frustrating, to be shackled, to be not free</p>
+  <p>Please, give me tomorrow..</p>
+  <p>Please.. </p>
+</div>
+
+<script>
+function isValid(){
+  var keyvalue = document.getElementById('keyvalue').value;
+  if (keyvalue == "171945")
+    {document.getElementById('welcomeDiv').style.display = "block";
+     document.getElementById('checking').style.display = "none";}
+    
+  else
+    {alert('ACCESS DENIED')}
+}
+</script><script>
+  function isValid(){
+  var keyvalue = document.getElementById('keyvalue').value;
+  if (keyvalue == "171945")
+    {document.getElementById('welcomeDiv').style.display = "block";
+     document.getElementById('checking').style.display = "none";}
+    
+  else
+    {alert('ACCESS DENIED')}
+}</script>
